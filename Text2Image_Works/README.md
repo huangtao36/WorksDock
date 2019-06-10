@@ -14,7 +14,7 @@ Feel free to send a PR or an issue.
 - [Papers](#Papers)
 
   - [general text to image](#general-text-to-image)
-  - [Language-based image editing](#Language-based image editing)
+  - [Language-based image editing](#Language-based-image-editing)
   - [scene graph/layout to image](#scene-graphlayout-to-image)
   - [dialog to image](#dialog-to-image)
   - [Related](#Related)
@@ -25,6 +25,7 @@ Feel free to send a PR or an issue.
 
 - CUB bird dataset [[Link](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)]
 - COCO dataset [[Link](http://cocodataset.org)]
+- Deep Fashion Synthesis [[Link]](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/FashionSynthesis.html)
 
 
 
@@ -45,6 +46,13 @@ Feel free to send a PR or an issue.
 |      | SD-GAN   | Semantics Disentangling for Text-to-Image Generation | CVPR 2019  | [1904.01480](https://arxiv.org/abs/1904.01480) |
 
 ### Language-based image editing
+
+| Note |    Model    |                            Paper                             | Conference  |                    paper link                    |                          code link                           |
+| :--: | :---------: | :----------------------------------------------------------: | :---------: | :----------------------------------------------: | :----------------------------------------------------------: |
+|      |             |      Semantic Image Synthesis via Adversarial Learning       |  ICCV 2017  |  [1707.06873](https://arxiv.org/abs/1707.06873)  | [woozzu/dong_iccv_2017](https://github.com/woozzu/dong_iccv_2017) |
+|      | FashionGAN  | Be Your Own Prada: Fashion Synthesis with Structural Coherence |  ICCV 2017  | [[1710.07346]](https://arxiv.org/abs/1710.07346) |  [[code-torch]](https://github.com/zhusz/ICCV17-fashionGAN)  |
+|      |  FiLMedGAN  | Language Guided Fashion Image Manipulation with Feature-wise Transformations | ECCVW 2018  | [[1808.04000]](https://arxiv.org/abs/1808.04000) |                                                              |
+|      | BilinearGAN | Bilinear Representation for Language-Based Image Editing using Conditional Generative Adversarial Networks | ICASSP 2019 | [[1903.07499]](https://arxiv.org/abs/1903.07499) | [[code-pytorch]](https://github.com/vtddggg/BilinearGAN_for_LBIE) |
 
 
 
@@ -74,4 +82,12 @@ Feel free to send a PR or an issue.
 |      | SeqAttnGAN  | Sequential Attention GAN for Interactive Image Editing via Dialogue |            | [1812.08352](https://arxiv.org/abs/1812.08352) |                                                              |
 
 ### Related
+
+Not necessarily text to image
+
+| Note | Model |                            Paper                             | Conference |                     paper link                     |                      code link                      |
+| :--: | :---: | :----------------------------------------------------------: | :--------: | :------------------------------------------------: | :-------------------------------------------------: |
+|      | MSGAN | Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis | CVPR 2019  | [1903.05628](https://arxiv.org/pdf/1903.05628.pdf) | [HelenMao/MSGAN](https://github.com/HelenMao/MSGAN) |
+|      | SPADE | Semantic Image Synthesis with Spatially-Adaptive Normalization | CVPR 2019  | [1903.07291](https://arxiv.org/pdf/1903.07291.pdf) |   [NVlabs/SPADE](https://github.com/NVlabs/SPADE)   |
+|      |       |                                                              |            |                                                    |                                                     |
 
